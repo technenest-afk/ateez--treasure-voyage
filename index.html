@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ATEEZ — Treasure Voyage</title>
+  <meta name="description" content="Una experiencia temática de ATEEZ y ATINY con estética de mapa del tesoro." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="site-shell">
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="topbar">
+      <a class="brand" href="#inicio">ATEEZ<span>✦</span></a>
+
+      <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+
+      <nav class="nav">
+        <a class="active" href="#inicio">INICIO</a>
+        <a href="#crew">THE CREW</a>
+        <a href="#voyage">VOYAGE</a>
+        <a href="#musica">MÚSICA</a>
+        <a href="#galeria">GALERÍA</a>
+        <a href="#atiny">ATINY</a>
+        <a href="#mensaje">MENSAJE</a>
+      </nav>
+
+      <div class="pirate-flag">☠</div>
+    </header>
+
+    <main>
+
+      <!-- ================= HERO ================= -->
+      <section id="inicio" class="hero">
+        <!--
+          IMAGEN DE PORTADA:
+          Reemplazá este bloque por <img> cuando tengas tu portada.
+          No hace falta modificar el resto del diseño.
+        -->
+        <div class="hero-image-placeholder">
+          <span>PORTADA</span>
+          <small>Colocá aquí tu imagen después</small>
+        </div>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <p class="eyebrow">8 MAKES 1 TEAM · ONE CREW · ONE ATINY</p>
+          <h1>ATEEZ —<br><strong>TREASURE<br>VOYAGE</strong></h1>
+          <p class="hero-copy">
+            Ocho integrantes. Un solo barco.<br>
+            Un océano lleno de historias, música y tesoros.<br>
+            Bienvenido a bordo del viaje de ATEEZ.
+          </p>
+          <a class="btn" href="#mapa">COMENZAR EL VIAJE <span>⚓</span></a>
+        </div>
+      </section>
+
+      <!-- ================= MAP ================= -->
+      <section id="mapa" class="paper-section map-section">
+        <div class="map-intro">
+          <span class="section-number">01.</span>
+          <h2>EL MAPA DEL TESORO <span>⚓</span></h2>
+          <p>Cada isla representa una parte de este viaje. Explorá y descubrí todo lo que ATEEZ tiene para compartir con su tripulación.</p>
+          <a class="btn small" href="#crew">COMENZAR EL MAPA <span>→</span></a>
+        </div>
+
+        <div class="treasure-map">
+          <div class="compass">✥</div>
+
+          <a class="map-island island-crew" href="#crew">
+            <span>⚙</span><b>THE CREW</b>
+          </a>
+
+          <a class="map-island island-voyage" href="#voyage">
+            <span>⌁</span><b>VOYAGE</b>
+          </a>
+
+          <a class="map-island island-atiny" href="#atiny">
+            <span>♥</span><b>ATINY</b>
+          </a>
+
+          <a class="map-island island-music" href="#musica">
+            <span>♫</span><b>MÚSICA</b>
+          </a>
+
+          <a class="map-island island-gallery" href="#galeria">
+            <span>▣</span><b>GALERÍA</b>
+          </a>
+
+          <div class="dotted-route"></div>
+        </div>
+      </section>
+
+      <!-- ================= CREW + MUSIC ================= -->
+      <section class="two-column-section">
+
+        <div id="crew" class="paper-section crew-section">
+          <div class="section-heading">
+            <span class="section-number">02.</span>
+            <div>
+              <h2>THE CREW <span>⚓</span></h2>
+              <p>Conocé a los 8 integrantes que hacen posible este viaje.</p>
+              <p>Hacé clic en cada uno para saber más sobre ellos.</p>
+            </div>
+          </div>
+
+          <div class="crew-grid">
+  <!-- Las imágenes se pueden agregar después dentro de .member-image -->
+  <article class="member-card" data-member="Hongjoong">
+    <div class="member-image">FOTO</div>
+    <span>HONGJOONG</span>
+    <small>LÍDER · RAPERO · COMPOSITOR</small>
+  </article>
+  <article class="member-card" data-member="Seonghwa">
+    <div class="member-image">FOTO</div>
+    <span>SEONGHWA</span>
+    <small>VOCALISTA · PERFORMER</small>
+  </article>
+  <article class="member-card" data-member="Yunho">
+    <div class="member-image">FOTO</div>
+    <span>YUNHO</span>
+    <small>BAILARÍN · VOCALISTA</small>
+  </article>
+  <article class="member-card" data-member="Yeosang">
+    <div class="member-image">FOTO</div>
+    <span>YEOSANG</span>
+    <small>VOCALISTA · PERFORMER</small>
+  </article>
+  <article class="member-card" data-member="San">
+    <div class="member-image">FOTO</div>
+    <span>SAN</span>
+    <small>VOCALISTA · PERFORMER</small>
+  </article>
+  <article class="member-card" data-member="Mingi">
+    <div class="member-image">FOTO</div>
+    <span>MINGI</span>
+    <small>RAPERO · PERFORMER</small>
+  </article>
+  <article class="member-card" data-member="Wooyoung">
+    <div class="member-image">FOTO</div>
+    <span>WOOYOUNG</span>
+    <small>BAILARÍN · VOCALISTA</small>
+  </article>
+  <article class="member-card" data-member="Jongho">
+    <div class="member-image">FOTO</div>
+    <span>JONGHO</span>
+    <small>VOCALISTA PRINCIPAL · MAKNAE</small>
+  </article>
+</div>
+
+<button class="btn small full-width" id="crewButton">VER MÁS SOBRE ELLOS →</button>VER MÁS SOBRE ELLOS →</button>
+        </div>
+
+        <div id="musica" class="paper-section music-section">
+          <div class="section-heading">
+            <span class="section-number">03.</span>
+            <div>
+              <h2>CAPTAIN'S RADIO <span>▣</span></h2>
+              <p>Una playlist para cada etapa del viaje.</p>
+            </div>
+          </div>
+
+          <div class="music-layout">
+            <div class="track-list" id="trackList">
+              <button class="track active" data-track="Pirate King" data-video="RqJ1rH9M5G0" data-time="3:16">
+                <i>▶</i><span>01</span><b>Pirate King</b><em>3:16</em>
+              </button>
+              <button class="track" data-track="Say My Name" data-video="1gQ_-Jp5o7o" data-time="3:42">
+                <i>○</i><span>02</span><b>Say My Name</b><em>3:42</em>
+              </button>
+              <button class="track" data-track="WONDERLAND" data-video="Z_BhMhZpAug" data-time="3:19">
+                <i>○</i><span>03</span><b>WONDERLAND</b><em>3:19</em>
+              </button>
+              <button class="track" data-track="Answer" data-video="dTT3MRODUsA" data-time="3:50">
+                <i>○</i><span>04</span><b>Answer</b><em>3:50</em>
+              </button>
+              <button class="track" data-track="INCEPTION" data-video="2NArH91kHoQ" data-time="3:16">
+                <i>○</i><span>05</span><b>INCEPTION</b><em>3:16</em>
+              </button>
+              <button class="track" data-track="HALAZIA" data-video="SszP3hlQ55Y" data-time="3:32">
+                <i>○</i><span>06</span><b>HALAZIA</b><em>3:32</em>
+              </button>
+              <button class="track" data-track="GUERRILLA" data-video="2HcVZm_4qAI" data-time="3:28">
+                <i>○</i><span>07</span><b>GUERRILLA</b><em>3:28</em>
+              </button>
+              <button class="track" data-track="BOUNCY" data-video="U0G5OA6ZH5w" data-time="3:15">
+                <i>○</i><span>08</span><b>BOUNCY</b><em>3:15</em>
+              </button>
+              <button class="track" data-track="Crazy Form" data-video="9t57C7NcjWo" data-time="3:07">
+                <i>○</i><span>09</span><b>Crazy Form</b><em>3:07</em>
+              </button>
+              <button class="track" data-track="Lemon Drop" data-video="H4H99b1CjPU" data-time="3:17">
+                <i>○</i><span>10</span><b>Lemon Drop</b><em>3:17</em>
+              </button>
+            </div>
+
+            <div class="player">
+              <div class="player-art">
+                <div id="youtubePlayer"></div>
+                <div class="player-art-overlay">▶</div>
+              </div>
+              <p>REPRODUCIENDO AHORA</p>
+              <h3 id="nowPlaying">Pirate King</h3>
+              <small>ATEEZ</small>
+
+              <div class="progress">
+                <span id="progressBar"></span>
+              </div>
+
+              <div class="player-time">
+                <span>0:00</span>
+                <span id="trackTime">3:16</span>
+              </div>
+
+              <div class="controls">
+                <button id="shuffleButton" aria-label="Aleatorio">↝</button>
+                <button id="prevButton" aria-label="Anterior">◀</button>
+                <button class="play" id="playButton" aria-label="Reproducir">▶</button>
+                <button id="nextButton" aria-label="Siguiente">▶</button>
+                <button id="repeatButton" aria-label="Repetir">↻</button>
+              </div>
+
+              <a class="youtube-current" id="youtubeCurrent" href="#" target="_blank" rel="noopener">
+                ABRIR CANCIÓN EN YOUTUBE ↗
+              </a>
+
+              <a class="btn small" href="https://www.youtube.com/@ATEEZofficial" target="_blank" rel="noopener">
+                VER MÁS MÚSICA EN YOUTUBE ▶
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= VOYAGE ================= -->
+      <section id="voyage" class="paper-section voyage-section">
+        <div class="section-heading">
+          <span class="section-number">04.</span>
+          <div>
+            <h2>VOYAGE <span>⚓</span></h2>
+            <p>Momentos importantes de este viaje sin fin.</p>
+          </div>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="dot"></span>
+            <strong>2018</strong>
+            <h3>El inicio del viaje.</h3>
+            <p>Se forma la tripulación de 8.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="dot"></span>
+            <strong>2019</strong>
+            <h3>Primeras aventuras.</h3>
+            <p>Juntos. Nuevos horizontes.</p>
+          </article>
+          <article class="timeline-item current">
+            <span class="dot"></span>
+            <strong>2020–2021</strong>
+            <h3>Exploramos nuevos mundos.</h3>
+            <p>Y encontramos nuestro rumbo.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="dot"></span>
+            <strong>2022–2023</strong>
+            <h3>Más fuertes que nunca.</h3>
+            <p>Seguimos avanzando hacia el tesoro.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="dot"></span>
+            <strong>2024…</strong>
+            <h3>El viaje continúa.</h3>
+            <p>ATEEZ y ATINY, siempre juntos.</p>
+          </article>
+        </div>
+
+        <blockquote>
+          “No importa cuán lejos sea el océano,<br>
+          ATEEZ y ATINY siempre encontrarán el camino.”
+        </blockquote>
+      </section>
+
+      <!-- ================= GALLERY ================= -->
+      <section id="galeria" class="paper-section gallery-section">
+        <div class="section-heading">
+          <span class="section-number">05.</span>
+          <div>
+            <h2>GALERÍA <span>▣</span></h2>
+            <p>Recuerdos de nuestra tripulación.</p>
+          </div>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Reemplazá estos placeholders por tus fotos -->
+          <div class="gallery-image">FOTO</div>
+          <div class="gallery-image">FOTO</div>
+          <div class="gallery-image">FOTO</div>
+          <div class="gallery-image">FOTO</div>
+          <div class="gallery-image">FOTO</div>
+          <div class="gallery-image">FOTO</div>
+        </div>
+
+        <button class="btn small" id="galleryButton">VER MÁS FOTOS →</button>
+      </section>
+
+      <!-- ================= ATINY ================= -->
+      <section id="atiny" class="atiny-section">
+        <div class="lantern">
+          <span>☼</span>
+        </div>
+
+        <div class="atiny-copy">
+          <span class="section-number">06.</span>
+          <h2>ATINY <span>♥</span></h2>
+          <p>
+            El otro lado del océano. Nuestra razón para seguir navegando.
+          </p>
+          <h3>ATEEZ Y ATINY, AQUÍ, ACOMPAÑÁ.</h3>
+          <p>
+            Gracias por estar, por apoyar, por creer y por ser parte de cada paso
+            de este viaje. Esta es nuestra tripulación. Esta es nuestra familia.
+          </p>
+          <div class="team-stamp">8 MAKES 1 TEAM <span>☠</span></div>
+        </div>
+
+        <div class="message-paper" id="mensaje">
+          <p>Para ti, ATINY:</p>
+          <p>Son nuestra fuerza,<br>nuestro hogar y nuestro<br>tesoro más grande.</p>
+          <strong>Gracias.</strong>
+          <div class="wax-seal">♥</div>
+        </div>
+
+        <div class="banner">
+          <span>ATEEZ</span>
+          <b>×</b>
+          <span>ATINY</span>
+          <i>⚓</i>
+        </div>
+      </section>
+    </main>
+
+
+  <!-- ================= FICHAS DE THE CREW ================= -->
+  <div class="member-modal" id="memberModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="member-profile" role="dialog" aria-modal="true" aria-labelledby="profileName">
+      <button class="modal-close" id="modalClose" aria-label="Cerrar">×</button>
+      <div class="profile-photo">FOTO</div>
+      <div class="profile-content">
+        <span class="profile-kicker">THE CREW · ATEEZ</span>
+        <h2 id="profileName">HONGJOONG</h2>
+        <p id="profileRole" class="profile-role"></p>
+        <div class="profile-grid">
+          <div><strong>NOMBRE</strong><span id="profileFullName"></span></div>
+          <div><strong>NACIMIENTO</strong><span id="profileBirthday"></span></div>
+          <div><strong>SIGNO</strong><span id="profileZodiac"></span></div>
+          <div><strong>ROL</strong><span id="profilePosition"></span></div>
+        </div>
+        <div class="profile-note" id="profileDescription"></div>
+      </div>
+    </div>
+  </div>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+      <p>GRACIAS POR SER PARTE DE ESTE VIAJE.</p>
+      <div class="socials">
+        <span>SEGUINOS EN:</span>
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="X">𝕏</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="TikTok">♪</a>
+        <a href="#" aria-label="Spotify">●</a>
+      </div>
+      <span class="anchor">⚓</span>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>
